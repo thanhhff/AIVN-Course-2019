@@ -1,7 +1,0 @@
-Hello
-Edit them
-Change
-
-Git commit -a -m "up"
-
-Cap nhat cong thuc
