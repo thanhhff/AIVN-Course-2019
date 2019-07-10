@@ -25,7 +25,6 @@ def check_age(age):
 
 
 age = 20
-
 if check_age(age):
     print("Nguoi nay la thanh nien!")
 else:
