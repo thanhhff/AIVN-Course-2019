@@ -1,4 +1,4 @@
-#Lenh if else
+# Lenh if else
 #
 # total = 900
 # discount = 0
@@ -10,6 +10,7 @@
 #     print("Ban khong duoc giam gia!")
 #
 # print("So tien can thanh toan la:", total - discount)
+
 
 def check_age(age):
     result = False
@@ -31,7 +32,7 @@ else:
     print("Khong phai thanh nien")
 
 
-#Viet ham discount cho truong hop neu thanh toan > 2000 thi giam 20%, tu 1000 -> 2000: 10%, neu duoi khong giam 1%
+# Viet ham discount cho truong hop neu thanh toan > 2000 thi giam 20%, tu 1000 -> 2000: 10%, neu duoi khong giam 1%
 
 def discount(value):
     discount_value = 0
@@ -43,9 +44,6 @@ def discount(value):
         discount_value = value * 0.01
     return discount_value
 
+
 value = 2000
 print("Tong tien phai thanh toan la: ", value - discount(value))
-
-
-
-
