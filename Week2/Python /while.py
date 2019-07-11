@@ -8,3 +8,9 @@ while (count < 8):
     n += 1
 else:
     print("END!")
+
+# pass chỉ giữ chỗ cho for
+# hàm sẽ được thêm vào sau.
+sequence = {'p', 'a', 's', 's'}
+for val in sequence:
+    pass
