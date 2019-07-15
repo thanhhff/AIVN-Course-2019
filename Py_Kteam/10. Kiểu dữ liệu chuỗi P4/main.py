@@ -37,8 +37,8 @@ B = A.strip('90')
 
 print(B)
 
-C = A.strip('xxx1')
+# C = A.strip('xxx1')
 
-print(C)
+# print(C)
 
 
