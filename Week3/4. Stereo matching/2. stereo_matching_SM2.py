@@ -49,5 +49,5 @@ def stereo_matching_sdd(left_img, right_img, kernel_size, disparity_range):
 
 if __name__ == '__main__':
     disparity_range = 16  # Cho cap anh tsukuba
-    kernel_size = 3
+    kernel_size = 5
     stereo_matching_sdd("left.png", "right.png", kernel_size, disparity_range)
