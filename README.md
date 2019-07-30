@@ -1,4 +1,7 @@
-# LearnPy_ML
-https://aivietnam.ai
+# Learn_ML Cơ Bản
+- Website: https://aivietnam.ai
 
-Bài tập lập trình khoá AI Cho Mọi Người 
+* Bài tập lập trình khoá AI Cho Mọi Người 
+
+# Hỗ trợ học Python
+- Khoá Python trên Howkteam: https://www.howkteam.vn/course/lap-trinh-python-co-ban-37
