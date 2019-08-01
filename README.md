@@ -6,4 +6,3 @@
 # Hỗ trợ học Python
 - Khoá Python trên Howkteam: https://www.howkteam.vn/course/lap-trinh-python-co-ban-37
 
-<img src="https://i.imgur.com/IWkXtpd.jpg">
