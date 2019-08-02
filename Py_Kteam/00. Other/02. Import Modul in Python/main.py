@@ -1,3 +1,6 @@
-import py_lib
+# import py_lib
 
-py_lib.ham1()
+# Gọi hàm bằng file biên dịch (Ẩn code)
+import py_lib_change
+
+py_lib_change.ham1()
