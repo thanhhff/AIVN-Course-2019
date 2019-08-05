@@ -87,6 +87,7 @@ def create_new_population(old_population, elitism=2, gen=1):
         new_population.append(individual_m2)
 
     for ind in sorted_population[m - elitism:]:
+        # print(ind.copy())
         new_population.append(ind.copy())
 
     return new_population
@@ -94,17 +95,17 @@ def create_new_population(old_population, elitism=2, gen=1):
 
 # With m = 10
 population = [create_individual() for _ in range(m)]
-print('Old Population')
-for i in population:
-    print(i)
+# print('Old Population')
+# for i in population:
+#     print(i)
 
 # Thực hiện tối ưu hoá n_generations = 40 lần
 for i in range(n_generations):
     population = create_new_population(population, 2, i)
 
-print('New population')
-for i in population:
-    print(i)
+# print('New population')
+# for i in population:
+#     print(i)
 
 
 y = [i for i in range(n_generations)]

@@ -1,32 +1,57 @@
+# price = a*area + b
+# First column is 'area' and next is 'price'
+# Từ dữ liệu nhà đã cho, hãy dự đoán diện tích căn nhà 800 m^2
+
 import random
 import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
 
-# Tìm min hàm sphere: f(x) = x1^2 + x2^2 + ... + x6^2
-n = 6  # Số gen của 1 cả thể là 6 trong chromosome
-m = 50  # Số chromosome
-n_generations = 100  # 100 lần lặp
+n = 2  # size of indivudal (chromosome)
+m = 100  # size of population
+n_generations = 100  # number of generations
+losses = []  # để vẽ biểu đồ quá trình tối ưu
 
-# Để vẽ biểu đồ quá trình tối ưu
-losses = []
+# Import data
+dataframe = pd.read_csv('data.csv')
+
+areas = dataframe.values[:, 0]
+prices = dataframe.values[:, 1]
 
 
-def generate_random_value(bound=20):
-    return (random.random() * 2 - 1) * bound
+def plot_dataframe(areas, prices):
+    fig = plt.figure('Show dataFrame')
+    ax = fig.add_subplot(111)
+    plt.xlabel('Diện tích nhà (x100m^2)')
+    plt.ylabel('Giá nhà')
+    plt.plot(areas, prices, 'o')
+    plt.show()
+
+
+def generate_random_value(bound=100):
+    return (random.random()) * bound
 
 
 def compute_loss(individual):
-    # Bài toán tìm min
-    return sum(gen * gen for gen in individual)
+    a = individual[0]
+    b = individual[1]
+
+    estimated_prices = [a * x + b for x in areas]
+    estimated_prices = [abs(x) for x in estimated_prices]
+
+    losses = [abs(y_est - y_gt) for y_est, y_gt in zip(estimated_prices, prices)]
+
+    return sum(losses)
 
 
 def compute_fitness(individual):
-    # Bài toán tìm max
     loss = compute_loss(individual)
+    # loss + 1 dưới mẫu tránh trường hợp mẫu = 0
     fitness = 1 / (loss + 1)
     return fitness
 
 
-def create_individual():
+def creat_individual():
     return [generate_random_value() for _ in range(n)]
 
 
@@ -102,7 +127,7 @@ def create_new_population(old_population, elitism=2, gen=1):
     return new_population
 
 
-population = [create_individual() for _ in range(m)]
+population = [creat_individual() for _ in range(m)]
 
 print('Old Population')
 for i in population:
@@ -115,6 +140,32 @@ print('New Population')
 for i in population:
     print(i)
 
+print('Show loss:')
 y = [i for i in range(n_generations)]
 plt.plot(y, losses)
 plt.show()
+
+print('\nGia tri du doan:')
+predict = population[m - 1]
+print(predict)
+print('\nKet qua du doan cho can nha rong 800 m^2')
+y_result = predict[0] * 8 + predict[1]
+print(y_result)
+
+def plot_result(areas, prices, predict):
+    a = predict[0]
+    b = predict[1]
+    x = np.linspace(1, 9)
+    y = a*x + b
+    fig = plt.figure('Show dataFrame')
+    ax = fig.add_subplot(111)
+    plt.xlabel('Diện tích nhà (x100m^2)')
+    plt.ylabel('Giá nhà')
+    plt.plot(areas, prices, 'o')
+    plt.plot(x, y)
+    plt.show()
+
+
+
+plot_result(areas, prices, predict)
+
