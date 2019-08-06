@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="026e33d4-c8ae-4f43-a04b-7fa58d46c79d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/AiVietnam.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week4/5.Uớc lượng giá sales/sales.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week4/6.Ước lượng giá nhà Boston-housing /boston-housing/submission_example.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week4/6.Ước lượng giá nhà Boston-housing /boston-housing/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week4/6.Ước lượng giá nhà Boston-housing /boston-housing/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week4/6.Ước lượng giá nhà Boston-housing /boston_housing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week4/6.Ước lượng giá nhà Boston-housing /test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week4/6.Ước lượng giá nhà Boston-housing /train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week4/7. Bài toán knapsack/kanpsack_me.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week4/7. Bài toán knapsack/knapsack.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week4/8.Salesman_travelling /salesman_travelling/code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week4/8.Salesman_travelling /salesman_travelling/data_route.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week4/8.Salesman_travelling /salesman_travelling/salesman_travelling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week4/4.Ước lượng giá nhà (cơ bản)/salesssss.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week4/5.Ước lượng Sale /advertising.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Week4/5.Uớc lượng giá sales/advertising.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week4/5.Ước lượng Sale /advertising_sales.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week4/5.Ước lượng giá Sales/sales.py" beforeDir="false" />
-    </list>
+    <list default="true" id="026e33d4-c8ae-4f43-a04b-7fa58d46c79d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +25,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -74,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564127410462</updated>
-      <workItem from="1565084323609" duration="242000" />
+      <workItem from="1565084323609" duration="563000" />
     </task>
     <servers />
   </component>

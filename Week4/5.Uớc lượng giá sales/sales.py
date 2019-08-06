@@ -125,9 +125,10 @@ for i in range(n_generations):
 
 # y = [i for i in range(n_generations)]
 
-# fig1 = plt.figure('Kết quả Best loss')
-# plt.plot(losses[:n_generations])
-# plt.show()
+# Vẽ losses
+fig1 = plt.figure('Kết quả Best loss')
+plt.plot(losses[:n_generations])
+plt.show()
 
 
 # Vẽ mức độ chênh lệch
