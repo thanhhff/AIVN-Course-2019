@@ -8,7 +8,7 @@
 
 [III. Hướng dẫn nâng cấp lên phiên bản Professional miễn phí](#Uppro)
 
-[IV. Hướng dẫn thực thi file và Debug trên PyCharm](#Thucthi_debug)
+[IV. Hướng dẫn thực thi File và Debug trên PyCharm](#Thucthi_debug)
 - [1. Thực thi File](#Thucthi)
 - [2. Debug](#Debug)
 
