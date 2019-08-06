@@ -8,7 +8,11 @@
 
 [III. Hướng dẫn nâng cấp lên phiên bản Professional miễn phí](#Uppro)
 
-[IV. Hướng dẫn thực thi và Debug trên PyCharm](#Debug)
+[IV. Hướng dẫn thực thi file và Debug trên PyCharm](#Thucthi_debug)
+- [1. Thực thi File](#Thucthi)
+- [2. Debug](#Debug)
+
+[Tổng Kết](#Tongket)
 
 =====================================
 <a name="Modau"></a>
@@ -56,4 +60,54 @@ Hiện tại PyCharm có 2 phiên bản:
 
     <img src="https://i.imgur.com/DbeN6gu.png">
 
+<a name="Thucthi_debug"></a>
 ## IV. Hướng dẫn thực thi và Debug trên PyCharm
+<a name="Thucthi"></a>
+### 1. Thực thi File 
+- Sau khi viết xong chương trình, các bạn chọn **`Run`** trên thanh công cụ và ấn **`Run`** (hoặc phím tắt: **`Control + Option + R`** đối với MacOS - phím tắt này tuỳ hệ điều hành sẽ khác nhau) để thực thi chương trình.
+
+     <img src="https://i.imgur.com/mwtVMz9.png">
+
+- Kết quả thực thi sẽ hiển thị ngay bên dưới cửa sổ lệnh:
+
+     <img src="https://i.imgur.com/SEGdlPB.png">
+    
+- Trong PyCharm có 2 chế độ **`Run`**, các bạn có thể thực thi bằng cửa sổ **`4: Run`** thông thường hoặc dùng cửa sổ **`Python Console`**. Mình khuyến khích các bạn nên chuyển qua **`Run`** bằng cửa sổ **`Python Console`** vì chúng ta không cần in giá trị biến ra ngoài màn hình.
+    - Cách chuyển qua dùng cửa sổ **`Python Console`**:
+    - Trên góc bên trái phải của cửa sổ Code, các bạn vào ô như trên hình và chọn **`Edit Configuration...`**
+    
+      <img src="https://i.imgur.com/PxLVaYe.png">
+    
+    - Cửa sổ điều chỉnh hiện lên, các bạn chọn **`Run with Python Console`** trong **`Execution`** và **`Apply`** thay đổi như trong ảnh:
+    
+      <img src="https://i.imgur.com/JzIUyzl.png"> 
+    
+    - Khi này, các bạn chạy lại chương trình, file sẽ được thực thi trên cửa sổ **`Python Console`**, sẽ có thêm một cửa sổ hiện thị danh sách biến và giá trị biến lưu trữ, sẽ rất tiện dụng không cần phải hiển thị giá trị ra ngoài màn hình:
+
+      <img src="https://i.imgur.com/8fYOWUo.png"> 
+    
+    - Các bạn có thể chọn View để xem chi tiết hơn:
+
+      <img src="https://i.imgur.com/kPgMCUY.png"> 
+    
+    
+<a name="Debug"></a>
+### 2. Debug 
+- Tương tự như thực thi File, các bạn chọn **`Run`** trên thanh công cụ và ấn **`Debug`** (hoặc phím tắt: **`Control + Option + D`** đối với MacOS - phím tắt này tuỳ hệ điều hành sẽ khác nhau).
+
+- Trong trường hợp Code của bạn không có lỗi, cửa sổ **`5: Debug`** đưa ra kết quả như bình thường giống **`4: Run`**:
+
+     <img src="https://i.imgur.com/A8cP9Zr.png"> 
+
+- Trong trường hợp Code của bạn có lỗi, cửa sổ Debug sẽ hiện vị trí lỗi của bạn, và đặc biệt hơn là giá trị của các biến cũng được hiển thị bên cạnh, bạn có thể dễ dàng chỉnh lại lỗi của mình.
+   - Trong ảnh dưới đây mình lỗi thiếu **` : `** trong  **`sorted_population[m - elitism]`**:
+
+       <img src="https://i.imgur.com/UDaoSZy.png"> 
+
+<a name="Tongket"></a>
+## Tổng Kết  
+- Tổng hợp phím tắt trong PyCharm: https://www.jetbrains.com/help/pycharm/keyboard-shortcuts-by-category.html
+
+Bài viết trên là những kiến thức mình thu được khi học tập, hi vọng nó sẽ giúp các bạn một phần nào đó.
+
+Cám ơn các bạn đã theo dõi! (^_^)
