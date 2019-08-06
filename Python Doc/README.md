@@ -87,7 +87,7 @@ Hiện tại PyCharm có 2 phiên bản:
 
       <img src="https://i.imgur.com/8fYOWUo.png"> 
     
-    - Các bạn có thể chọn View để xem chi tiết hơn:
+    - Các bạn có thể chọn **`View`** để xem chi tiết hơn:
 
       <img src="https://i.imgur.com/kPgMCUY.png"> 
     
