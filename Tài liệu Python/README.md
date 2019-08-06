@@ -38,9 +38,9 @@ Hiện tại PyCharm có 2 phiên bản:
 - Cách nâng cấp:
   - Đầu tiên các bạn truy cập: https://www.jetbrains.com/student/ 
   - Nhấn nút "Apply Now" để tiến hành nâng cấp.
-  - Các bạn điền đầy đủ thông tin của các bạn như mình bên dưới (khuyến khích có email của nhà trường).
+  - Các bạn điền đầy đủ thông tin của các bạn như mình bên dưới (khuyến khích có email cấp bởi trường bạn).
   
-  <img src="https://i.imgur.com/XuBvwhc.png">
+  <img src="https://i.imgur.com/hlZCWwQ.png">
   
   - Sau đó nhấn "APPLY FOR FREE PRODUCTS". Khi này sẽ có email xác thực gửi đến email đăng ký của bạn.
   - Các bạn "Confirm Request" và đồng ý điều khoản của Jetbrains sẽ được nâng cấp lên phiên bản Professional.
