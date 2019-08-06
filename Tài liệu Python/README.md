@@ -6,7 +6,7 @@
 - [1. Download PyCharm](#Download)
 - [2. Cài đặt chi tiết](#Huongdancaidat)
 
-[III. Hướng dẫn nâng cấp lên phiên bản Professional](#Uppro)
+[III. Hướng dẫn nâng cấp lên phiên bản Professional miễn phí](#Uppro)
 
 =====================================
 <a name="Modau"></a>
@@ -31,7 +31,7 @@ Hiện tại PyCharm có 2 phiên bản:
 - Tác giả **`Than Trieu`**: https://www.youtube.com/watch?v=Z2q7V3ZIghY 
 
 <a name="Uppro"></a>
-## III. Hướng dẫn nâng cấp lên phiên bản Professional 
+## III. Hướng dẫn nâng cấp lên phiên bản Professional miễn phí
 - Đối với các bạn là học sinh / sinh viên / nghiên cứu sinh / giảng viên sẽ được Jetbrains hỗ trợ nâng cấp lên phiên bản Professional miễn phí.
 - Nâng cấp tài khoản lên Pro bạn có thể sử dụng miễn phí hơn 15 IDE với đầy đủ chức năng của Jetbrains như: PyCharm, PhpStorm, WebStorm...
 - Chú ý: các bạn nên có email của nhà trường để việc nâng cấp dễ dàng hơn.
