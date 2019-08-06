@@ -2,17 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="026e33d4-c8ae-4f43-a04b-7fa58d46c79d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Py_Kteam/00. Bài Tập/Level 1/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Py_Kteam/00. Bài Tập/Level 1/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/AiVietnam.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/5.Uớc lượng giá sales/sales.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/6.Ước lượng giá nhà Boston-housing /boston-housing/submission_example.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/6.Ước lượng giá nhà Boston-housing /boston-housing/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/6.Ước lượng giá nhà Boston-housing /boston-housing/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/6.Ước lượng giá nhà Boston-housing /boston_housing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/6.Ước lượng giá nhà Boston-housing /test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/6.Ước lượng giá nhà Boston-housing /train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/7. Bài toán knapsack/kanpsack_me.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/7. Bài toán knapsack/knapsack.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/8.Salesman_travelling /salesman_travelling/code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/8.Salesman_travelling /salesman_travelling/data_route.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week4/8.Salesman_travelling /salesman_travelling/salesman_travelling.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week4/4.Ước lượng giá nhà (cơ bản)/salesssss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week4/5.Ước lượng Sale /advertising.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Week4/5.Uớc lượng giá sales/advertising.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week4/5.Ước lượng Sale /advertising_sales.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week4/5.Ước lượng giá Sales/sales.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -27,25 +47,6 @@
   </component>
   <component name="ProjectId" id="1P2u4i9eadYHK0nS2sZABZ1lyYS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Week3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Week3" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -73,34 +74,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564127410462</updated>
+      <workItem from="1565084323609" duration="242000" />
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="723" y="23" width="717" height="813" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.53037035" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="R Packages" order="4" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Useful python modules/module_os.py" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
