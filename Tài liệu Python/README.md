@@ -8,6 +8,8 @@
 
 [III. Hướng dẫn nâng cấp lên phiên bản Professional miễn phí](#Uppro)
 
+[IV. Hướng dẫn chạy và debug trên PyCharm](#Debug)
+
 =====================================
 <a name="Modau"></a>
 ## I. Mở đầu 
