@@ -50,7 +50,7 @@ Hiện tại PyCharm có 2 phiên bản:
    <img src="https://i.imgur.com/ZrzCsrU.png">
 
 - Các bạn download phiên bản Professional về máy và đăng nhập bằng tài khoản bạn đã tạo. 
-- Sau khi đăng nhập thành công, khi khởi động phần mềm sẽ có thêm dòng "Licensed to..."
+- Sau khi đăng nhập thành công, khi khởi động phần mềm sẽ có thêm dòng "Licensed to..." là bạn đã thành công nâng cấp lên phiên bản Pro.
 
     <img src="https://i.imgur.com/DbeN6gu.png">
 
