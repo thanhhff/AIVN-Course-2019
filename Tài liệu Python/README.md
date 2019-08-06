@@ -27,7 +27,7 @@ Hiện tại PyCharm có 2 phiên bản:
 
 <a name="Huongdancaidat"></a>
 ### 2. Cài đặt chi tiết 
-- Các bạn truy cập vào liên kết YouTube này để xem chi tiết phần cài đặt: 
+- Các bạn truy cập vào liên kết YouTube bên dưới đây để xem chi tiết phần cài đặt: 
 - Tác giả **`Than Trieu`**: https://www.youtube.com/watch?v=Z2q7V3ZIghY 
 
 <a name="Uppro"></a>
