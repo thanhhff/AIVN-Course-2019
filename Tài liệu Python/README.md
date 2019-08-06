@@ -48,4 +48,9 @@ Hiện tại PyCharm có 2 phiên bản:
   - Sau đó tài khoản của các bạn sẽ được nâng lên phiên bản Pro, có hiệu lực 1 năm kể từ ngày đăng ký. Sau khi hết hạn các bạn có thể đăng ký mới.
    
    <img src="https://i.imgur.com/ZrzCsrU.png">
-  
+
+- Các bạn download phiên bản Professional về máy và đăng nhập bằng tài khoản bạn đã tạo. 
+- Sau khi đăng nhập thành công, khi khởi động phần mềm sẽ có thêm dòng "Licensed to..."
+
+    <img src="https://i.imgur.com/DbeN6gu.png">
+
