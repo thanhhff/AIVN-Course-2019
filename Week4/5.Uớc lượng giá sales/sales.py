@@ -130,23 +130,20 @@ fig1 = plt.figure('Kết quả Best loss')
 plt.plot(losses[:n_generations])
 plt.show()
 
-
 # Vẽ mức độ chênh lệch
 sorted_population = sorted(population, key=compute_fitness)
 individual = sorted_population[m - 1]
 
 estimated_prices = []
 for feature in features:
-    estimated_price = sum(c*x for x, c in zip(feature, individual))
+    estimated_price = sum(c * x for x, c in zip(feature, individual))
     estimated_prices.append(estimated_price)
 
 losses = [abs(y_est - y_gt) for y_est, y_gt in zip(estimated_prices, prices)]
 # Tổng lỗi khi dùng kết quả dự đoán
-print('Value loss: ',sum(losses))
+print('Value loss: ', sum(losses))
 
 fig, ax = plt.subplots(figsize=(10, 6))
 plt.plot(prices, c='green')
 plt.plot(estimated_prices, c='blue')
 plt.show()
-
-
