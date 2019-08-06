@@ -21,7 +21,7 @@ Hiện tại PyCharm có 2 phiên bản:
 <a name="Download"></a>
 ### 1. Download PyCharm
 - Truy cập vào trang download trên trang chủ Jetbrains: https://www.jetbrains.com/pycharm/download/
-- Lựa chọn phiên bản download phù hợp. (Phiên bản Community cũng đã đầy đủ nhiều tính năng hỗ trợ code Python)
+- Lựa chọn phiên bản download phù hợp. (Phiên bản Community cũng đã đầy đủ các tính năng hỗ trợ code Python)
 - Mình sẽ hướng dẫn các bạn nâng cấp lên phiên bản Professional **`Miễn phí`** [tại đây](#Uppro).
 <img src="https://i.imgur.com/H58ZEom.png">
 
