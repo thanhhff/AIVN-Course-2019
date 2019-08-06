@@ -8,7 +8,7 @@
 
 [III. Hướng dẫn nâng cấp lên phiên bản Professional miễn phí](#Uppro)
 
-[IV. Hướng dẫn chạy và debug trên PyCharm](#Debug)
+[IV. Hướng dẫn thực thi và Debug trên PyCharm](#Debug)
 
 =====================================
 <a name="Modau"></a>
@@ -56,3 +56,4 @@ Hiện tại PyCharm có 2 phiên bản:
 
     <img src="https://i.imgur.com/DbeN6gu.png">
 
+## IV. Hướng dẫn thực thi và Debug trên PyCharm
