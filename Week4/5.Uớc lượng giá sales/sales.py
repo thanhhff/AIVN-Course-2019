@@ -1,46 +1,34 @@
-# price = a*area + b
-# First column is 'area' and next is 'price'
-# Từ dữ liệu nhà đã cho, hãy dự đoán diện tích căn nhà 800 m^2
+# Sale = c1*TV + c2*Radio + c3*Newspaper + c4 * 1.0
+# Find: [c1 c2 c3 c4]
 
-import random
-import matplotlib.pyplot as plt
 import pandas as pd
+import random
 import numpy as np
+import math
+import matplotlib.pyplot as plt
 
-n = 2  # size of indivudal (chromosome)
+n = 4  # size of indivudal (chromosome) - 3 feature + 1 bias
 m = 100  # size of population
-n_generations = 100  # number of generations
+n_generations = 200  # number of generations
 losses = []  # để vẽ biểu đồ quá trình tối ưu
 
-# Import data
-dataframe = pd.read_csv('data.csv')
+# Import dữ liệu
+dataframe = pd.read_csv('advertising.csv')
 
-areas = dataframe.values[:, 0]
-prices = dataframe.values[:, 1]
+features = dataframe.values[:, :3]
+prices = dataframe.values[:, 3]
 
-
-def plot_dataframe(areas, prices):
-    fig = plt.figure('Show dataFrame')
-    ax = fig.add_subplot(111)
-    plt.xlabel('Diện tích nhà (x100m^2)')
-    plt.ylabel('Giá nhà')
-    plt.plot(areas, prices, 'o')
-    plt.show()
-
-
-def generate_random_value(bound=100):
-    return (random.random()) * bound
+# Add bias
+features = np.concatenate((features, np.ones((features.shape[0], 1))), axis=1)
 
 
 def compute_loss(individual):
-    a = individual[0]
-    b = individual[1]
-
-    estimated_prices = [a * x + b for x in areas]
-    estimated_prices = [abs(x) for x in estimated_prices]
+    estimated_prices = []
+    for feature in features:
+        estimated_price = sum(c * x for x, c in zip(feature, individual))
+        estimated_prices.append(estimated_price)
 
     losses = [abs(y_est - y_gt) for y_est, y_gt in zip(estimated_prices, prices)]
-
     return sum(losses)
 
 
@@ -49,6 +37,10 @@ def compute_fitness(individual):
     # loss + 1 dưới mẫu tránh trường hợp mẫu = 0
     fitness = 1 / (loss + 1)
     return fitness
+
+
+def generate_random_value(bound=100):
+    return (random.random()) * bound
 
 
 def creat_individual():
@@ -101,7 +93,7 @@ def create_new_population(old_population, elitism=2, gen=1):
     # key=compute_fitness -> Sắp xếp tăng dần
     sorted_population = sorted(old_population, key=compute_fitness)
 
-    if gen % 1 == 0:
+    if gen % 10 == 0:
         losses.append(compute_loss(sorted_population[m - 1]))
         print('Best loss:', compute_loss(sorted_population[m - 1]))
 
@@ -128,45 +120,32 @@ def create_new_population(old_population, elitism=2, gen=1):
 
 
 population = [creat_individual() for _ in range(m)]
-
-print('Old Population')
-for i in population:
-    print(i)
-
 for i in range(n_generations):
     population = create_new_population(population, 2, i)
 
-print('New Population')
-for i in population:
-    print(i)
+# y = [i for i in range(n_generations)]
 
-print('Show loss:')
-y = [i for i in range(n_generations)]
-plt.plot(y, losses)
+# fig1 = plt.figure('Kết quả Best loss')
+# plt.plot(losses[:n_generations])
+# plt.show()
+
+
+# Vẽ mức độ chênh lệch
+sorted_population = sorted(population, key=compute_fitness)
+individual = sorted_population[m - 1]
+
+estimated_prices = []
+for feature in features:
+    estimated_price = sum(c*x for x, c in zip(feature, individual))
+    estimated_prices.append(estimated_price)
+
+losses = [abs(y_est - y_gt) for y_est, y_gt in zip(estimated_prices, prices)]
+# Tổng lỗi khi dùng kết quả dự đoán
+print('Value loss: ',sum(losses))
+
+fig, ax = plt.subplots(figsize=(10, 6))
+plt.plot(prices, c='green')
+plt.plot(estimated_prices, c='blue')
 plt.show()
 
-print('\nGia tri du doan:')
-predict = population[m - 1]
-print(predict)
-print('\nKet qua du doan cho can nha rong 800 m^2')
-y_result = predict[0] * 8 + predict[1]
-print(y_result)
-
-def plot_result(areas, prices, predict):
-    a = predict[0]
-    b = predict[1]
-    x = np.linspace(1, 9)
-    y = a*x + b
-    fig = plt.figure('Show dataFrame')
-    ax = fig.add_subplot(111)
-    plt.xlabel('Diện tích nhà (x100m^2)')
-    plt.ylabel('Giá nhà')
-    plt.plot(areas, prices, 'o')
-    plt.plot(x, y)
-    plt.show(
-
-
-
-
-plot_result(areas, prices, predict)
 

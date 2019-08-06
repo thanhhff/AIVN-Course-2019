@@ -25,12 +25,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="723" />
-    <option name="y" value="23" />
-    <option name="width" value="717" />
-    <option name="height" value="813" />
-  </component>
+  <component name="ProjectId" id="1P2u4i9eadYHK0nS2sZABZ1lyYS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -53,6 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
