@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-n = 5  # Chromosome length
-m = 6  # population size
-n_generations = 2
+n = 10  # Chromosome length
+m = 100  # population size
+n_generations = 200
 
 CROSS_RATE = 0.9
 MUTATION_RATE = 0.05
@@ -66,7 +66,7 @@ for g in range(n_generations):
     # compute fitness
     fitness = compute_fitness(cost_values)
     if g % 1 == 0:
-        # print(g, '- Cost: ', np.min(cost_values))
+        print(g, '- Cost: ', np.min(cost_values))
         losses.append(np.min(cost_values))
 
     pop = select(pop, fitness)
@@ -90,8 +90,6 @@ for g in range(n_generations):
         pop[i + 1][:] = s1
 
     # elitism
-    print(fitness)
-    print(fitness.argsort())
     two_best = fitness.argsort()[-2:]
     pop[m - 2][:] = parent_pop[two_best[0]].copy()[0]
     pop[m - 1][:] = parent_pop[two_best[1]].copy()[0]
