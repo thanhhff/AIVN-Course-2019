@@ -8,3 +8,4 @@
 - Luyện tập code Python: https://www.hackerrank.com/
 
 ## Hướng dẫn sử dụng Pycharm 
+- https://github.com/thanhhff/AIVietnam_Basic/blob/master/Python%20Doc/README.md
