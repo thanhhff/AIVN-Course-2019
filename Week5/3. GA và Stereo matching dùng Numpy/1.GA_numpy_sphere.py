@@ -86,8 +86,8 @@ for g in range(n_generations):
         s2 = mutate(s2)
 
         # parent is replaced by its child
-        pop[i][:] = s1
-        pop[i + 1][:] = s1
+        pop[2 * i][:] = s1
+        pop[2 * i + 1][:] = s2
 
     # elitism
     two_best = fitness.argsort()[-2:]
