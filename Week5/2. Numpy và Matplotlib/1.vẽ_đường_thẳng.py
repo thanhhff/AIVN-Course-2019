@@ -7,4 +7,8 @@ plt.title('Linear Function')
 plt.xlabel('x axis')
 plt.ylabel('y axis')
 plt.plot(x, y)
+# plt.clf()
+# plt.close()
 plt.show()
+
+
