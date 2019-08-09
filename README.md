@@ -15,3 +15,6 @@
 
 ## Hướng dẫn sử dụng Pycharm 
 - https://github.com/thanhhff/AIVietnam_Basic/blob/master/Python%20Doc/README.md
+
+## Giới thiệu về Matplotlib (chi tiết)
+- https://github.com/thanhhff/AIVietnam_Basic/blob/master/Week5/1.2%20Matplotlib/Matplotlib_General_Concepts.ipynb
