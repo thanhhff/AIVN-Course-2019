@@ -14,3 +14,4 @@ def generate_vectors(n = 10, m = 8):
 
 vectors = generate_vectors(10, 8)
 print(vectors)
+
