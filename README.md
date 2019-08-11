@@ -10,8 +10,9 @@
   - Week 5: Thư viện Numpy 
 
 ## Hỗ trợ học Python
-- Khoá Python cơ bản trên Howkteam: https://www.howkteam.vn/course/lap-trinh-python-co-ban-37
-- Luyện tập code Python: https://www.hackerrank.com/
+- Khoá Python cơ bản (Video) - [Howkteam](https://www.howkteam.vn/course/lap-trinh-python-co-ban-37)
+- Python Tutorials hướng dẫn bởi anh Bá Ngọc -[Github](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/python-tutorials)
+- Luyện tập code Python - [Hackerrank](https://www.hackerrank.com/)
 
 ## Hướng dẫn sử dụng Pycharm 
 - https://github.com/thanhhff/AIVietnam_Basic/blob/master/Python%20Doc/README.md
