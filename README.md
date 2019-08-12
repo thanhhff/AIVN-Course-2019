@@ -19,3 +19,6 @@
 
 ## Giới thiệu về Matplotlib (chi tiết)
 - https://github.com/thanhhff/AIVietnam_Basic/blob/master/Week5/1.2%20Matplotlib/Matplotlib_General_Concepts.ipynb
+
+## Thuật toán
+- Summed-area Table (ứng dụng cho bài toán xử lý ảnh - Stereo Matching) [Tại đây](https://github.com/thanhhff/AIVietnam_Basic/blob/master/Week3/6.%20Sum-are%20Table%20(Integral%20Image)%20%26%20Stereo%20matching/Summed-area-table.ipynb)
