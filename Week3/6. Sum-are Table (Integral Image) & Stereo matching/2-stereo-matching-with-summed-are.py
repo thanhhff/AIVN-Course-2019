@@ -36,8 +36,8 @@ def stereo_matching_ssd(left_img, right_img, kernel_size, disparity_range):
         memory[j] = data.cumsum(axis=0).cumsum(axis=1)
         # print(memory.cumsum(axis=0).cumsum(axis=1))
 
-    for y in range(kernel_half, height - kernel_half):
-        for x in range(kernel_half, width - kernel_half):
+    for y in range(kernel_half + 1, height - kernel_half):
+        for x in range(kernel_half + 1, width - kernel_half):
 
             x0 = x - kernel_half
             x1 = x + kernel_half
@@ -49,8 +49,6 @@ def stereo_matching_ssd(left_img, right_img, kernel_size, disparity_range):
             cost_min = 1000000  # a large number
 
             for j in range(disparity_range):
-                if y0 - 1 < 0 or x0 - 1 < 0:
-                    continue
                 a = memory[j, y0 - 1, x0 - 1]
                 b = memory[j, y1, x0 - 1]
                 c = memory[j, y0 - 1, x1]
