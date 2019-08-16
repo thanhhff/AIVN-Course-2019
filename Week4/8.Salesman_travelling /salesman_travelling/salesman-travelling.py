@@ -63,38 +63,43 @@ def compute_fitness(individual):
     return 1 / (1 + loss)
 
 
-# chon loc
-def selection(sorted_population):
-    index1 = random.randint(0, n - 2)
+def selection(sorted_old_population):
+    index1 = random.randint(0, m - 1)
     while True:
-        index2 = random.randint(0, n - 2)
+        index2 = random.randint(0, m - 1)
+        # Lựa chọn 2 gen khác nhau trong cá thể
         if index2 != index1:
             break
-    individual = sorted_population[index1]
+
+    # Lựa chọn individual_s trong sorted_population
+    individual_s = sorted_old_population[index1]
     if index2 > index1:
-        individual = sorted_population[index2]
-    return individual
+        individual_s = sorted_old_population[index2]
+    return individual_s
 
 
-# lai ghep:
 def crossover(individual1, individual2, crossover_rate=0.9):
+    # Lai ghép giữa 2 cá thể
     individual1_new = individual1.copy()
     individual2_new = individual2.copy()
 
     for i in range(n):
         if random.random() < crossover_rate:
+            # Trong trường hợp True sẽ hoán đổi 2 gen của 2 cá thể với nhau
             individual1_new[i] = individual2[i]
             individual2_new[i] = individual1[i]
 
     return individual1_new, individual2_new
 
 
-# dot bien
 def mutate(individual, mutation_rate=0.05):
+    # Đột biến
     individual_m = individual.copy()
 
     for i in range(n):
         if random.random() < mutation_rate:
+            # Trong trường hợp True sẽ đột biến gen đó
+            # Đột biến bằng việc random
             individual_m[i] = random.randint(1, n)
 
     return individual_m
@@ -143,7 +148,6 @@ for _ in range(n_generations):
 route_min = sorted_old_population[-1]
 route_min.append(sorted_old_population[-1][0])
 print('duong di ngan nhat: ', route_min, 'chi phi: ', losses[-1])
-
 
 plt.plot(losses[:n_generations])
 plt.show()
