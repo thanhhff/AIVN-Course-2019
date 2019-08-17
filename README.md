@@ -8,6 +8,9 @@
   - Week 3: Đại số tuyến tính cơ bản & Stereo Matching 
   - Week 4: Giải thuật Gen di truyền (Genetic Algorithm)
   - Week 5: Thư viện Numpy 
+  - Week 6: 
+    - Advanced Python
+    - Đọc và xử lý dữ liệu, Graph, Pandas 
 
 ## Hỗ trợ học Python
 - Khoá Python cơ bản (Video) - [Howkteam](https://www.howkteam.vn/course/lap-trinh-python-co-ban-37)
