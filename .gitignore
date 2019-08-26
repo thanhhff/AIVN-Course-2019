@@ -1,4 +1,7 @@
 
-.DS_Store
-Week6/1. Đọc và xử lý dữ liệu dùng Numpy/4.Cat-Dog(dữ-liệu-ảnh-rời-rạc)/dogs-vs-cats.zip
 *.gz
+*.iml
+*.xml
+*.zip
+.DS_Store
+.ipynb_checkpoints
