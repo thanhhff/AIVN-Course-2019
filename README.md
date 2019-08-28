@@ -1,4 +1,4 @@
-## Learn_ML Cơ Bản
+## Machine Learning Cơ Bản 
 - Website: https://aivietnam.ai
 
 * Code trong khoá AI cho mọi người
