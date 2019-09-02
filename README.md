@@ -20,9 +20,9 @@
     - [Thư viện Pandas](https://github.com/thanhhff/AIVietnam_Basic/tree/master/Week6/3.%20Pandas%20c%C6%A1%20b%E1%BA%A3n)
     - [Computation Graph](https://github.com/thanhhff/AIVietnam_Basic/tree/master/Week6/2.%20Computational%20Graph)
   - Week 7:
-    - Thuật toán Backpropagation
     - Linear Regression
     - Logistic Regression
+    - Stochastic, mini-batch, batch gradient descent
 
 ## Hỗ trợ học Python
 - Khoá Python cơ bản (Video) - [Howkteam](https://www.howkteam.vn/course/lap-trinh-python-co-ban-37)
