@@ -20,9 +20,9 @@
     - [Thư viện Pandas](https://github.com/thanhhff/AIVietnam_Basic/tree/master/Week6/3.%20Pandas%20c%C6%A1%20b%E1%BA%A3n)
     - [Computation Graph](https://github.com/thanhhff/AIVietnam_Basic/tree/master/Week6/2.%20Computational%20Graph)
   - Week 7:
-    - Linear Regression
-    - Logistic Regression
-    - Stochastic, mini-batch, batch gradient descent
+    - [Linear Regression](https://github.com/thanhhff/AIVietnam_Basic/tree/master/Week7/01.%20Linear%20Regression%20)
+    - [Logistic Regression](https://github.com/thanhhff/AIVietnam_Basic/tree/master/Week7/05.%20Logistic%20Regression)
+    - [Stochastic, mini-batch, batch gradient descent](https://github.com/thanhhff/AIVietnam_Basic/tree/master/Week7/03.%20Stochastic%2C%20mini-batch%2C%20batch%20gradient%20descent%20)
 
 ## Hỗ trợ học Python
 - Khoá Python cơ bản (Video) - [Howkteam](https://www.howkteam.vn/course/lap-trinh-python-co-ban-37)
