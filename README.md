@@ -25,6 +25,7 @@
     - [Stochastic, mini-batch, batch gradient descent](https://github.com/thanhhff/AIVietnam_Basic/tree/master/Week7/03.%20Stochastic%2C%20mini-batch%2C%20batch%20gradient%20descent%20)
   - Week 8:
   - Week 9:
+    - [Google Colab Tips](https://github.com/thanhhff/AIVietnam_Basic/blob/master/Week9/Tips_Google_Colab_(S%E1%BB%AD_d%E1%BB%A5ng_GPU_mi%E1%BB%85n_ph%C3%AD).ipynb)
     - [Convolutional Neural Network](https://github.com/thanhhff/AIVietnam_Basic/blob/master/Week9/1.%20Gi%E1%BB%9Bi%20thi%E1%BB%87u%20v%E1%BB%81%20CNN.ipynb)
     - [Convolution Layer and Pooling Layer](https://github.com/thanhhff/AIVietnam_Basic/blob/master/Week9/2.%20Th%C3%A0nh%20ph%E1%BA%A7n%20c%E1%BB%A7a%20CNN%20(%20c%C3%A1c%20t%E1%BA%A7ng%20).ipynb)
     - [CNN Quiz](https://github.com/thanhhff/AIVietnam_Basic/tree/master/Week9/Quiz%20)
