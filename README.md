@@ -25,6 +25,9 @@
     - [Logistic Regression](https://github.com/thanhhff/AIVietnam_Basic/tree/master/Week7/05.%20Logistic%20Regression)
     - [Stochastic, mini-batch, batch gradient descent](https://github.com/thanhhff/AIVietnam_Basic/tree/master/Week7/03.%20Stochastic%2C%20mini-batch%2C%20batch%20gradient%20descent%20)
   - Week 8:
+    - [Softmax Regression](https://aivietnam.ai/courses/aisummer2019/lessons/softmax-regression/)
+    - [Multi-layer Perceptron (MLP)](https://aivietnam.ai/courses/aisummer2019/lessons/multi-layer-perceptron/)
+    - [Tensorflow và tf.keras](https://aivietnam.ai/courses/aisummer2019/lessons/tensorflow-keras/)
   - Week 9:
     - [Google Colab Tips](https://github.com/thanhhff/AIVietnam_Basic/blob/master/Week9/Tips_Google_Colab_(S%E1%BB%AD_d%E1%BB%A5ng_GPU_mi%E1%BB%85n_ph%C3%AD).ipynb)
     - [Convolutional Neural Network](https://github.com/thanhhff/AIVietnam_Basic/blob/master/Week9/1.%20Gi%E1%BB%9Bi%20thi%E1%BB%87u%20v%E1%BB%81%20CNN.ipynb)
