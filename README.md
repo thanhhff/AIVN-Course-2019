@@ -1,7 +1,8 @@
-## Machine Learning Cơ Bản 
+## AI cho mọi người - AIVIETNAM - Khoá 2019
 - Website: https://aivietnam.ai
 
-* Code trong khoá AI cho mọi người
+* Mục Lục
+---
 
   - Week 1: [Tổng quan về AI & Các kỹ thuật căn bản](https://github.com/thanhhff/AIVietnam_Basic/tree/master/Week1)
   - Week 2: [Vòng lặp While / For & Math trong Python](https://github.com/thanhhff/AIVietnam_Basic/tree/master/Week2)
@@ -32,7 +33,6 @@
 
 ## Hỗ trợ học Python
 - Khoá Python cơ bản (Video) - [Howkteam](https://www.howkteam.vn/course/lap-trinh-python-co-ban-37)
-- Python Tutorials hướng dẫn bởi anh Bá Ngọc -[Github](https://github.com/bangoc123/learn-machine-learning-in-two-months/tree/master/python-tutorials)
 - Luyện tập code Python - [Hackerrank](https://www.hackerrank.com/)
 
 ## Hướng dẫn sử dụng Pycharm 
