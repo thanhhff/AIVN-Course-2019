@@ -1,7 +1,7 @@
 ## AI cho mọi người - AIVIETNAM - Khoá 2019
 - Website: https://aivietnam.ai
 
-* Mục Lục
+### Mục Lục
 ---
 
   - Week 1: [Tổng quan về AI & Các kỹ thuật căn bản](https://github.com/thanhhff/AIVietnam_Basic/tree/master/Week1)
